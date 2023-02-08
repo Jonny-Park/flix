@@ -1,44 +1,21 @@
 # Flix
+**Flix** is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+![IMDB Clone](https://user-images.githubusercontent.com/89917595/217650891-e4f07a10-06f6-4352-92f1-5fdb6e49fc3e.png)
 
-## Flix Part 2
-
-### User Stories
-
-#### REQUIRED (10pts)
-- [x] (5pts) User can tap a cell to see more details about a particular movie.
-- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
-
-#### BONUS
-- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
-
-### App Walkthrough GIF
-<img src="http://g.recordit.co/uzqBi13SzP.gif" width=250><br>
-
-### Notes
-There was no challenge for this assignment :)
-
----
-
-## Flix Part 1
 
 ### User Stories
 
-#### REQUIRED (10pts)
-- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [x] (3pts) User can view the movie poster image for each movie.
-
-#### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] User can tap a cell to see more details about a particular movie.
+- [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [x] User sees an app icon on the home screen and a styled launch screen.
+- [x] User can view and scroll through a list of movies now playing in theaters.
+- [x] User can view the movie poster image for each movie.
 
 ### App Walkthrough GIF
-<img src="http://g.recordit.co/E0Nnv54l8m.gif" width=250><br>
+<img src="http://g.recordit.co/uzqBi13SzP.gif" width="30%"> <img src="http://g.recordit.co/E0Nnv54l8m.gif" width="31%"><br>
 
 ### Notes
-I got stuck when trying to execute [pod init].
-zsh: /usr/local/bin/pod: bad interpreter: /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin: no such file or directory
-So, I execute [gem install -n /usr/local/bin cocoapods], then it worked
+I got stuck when trying to execute `pod init`:
+`zsh: /usr/local/bin/pod: bad interpreter: /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/bin: no such file or directory`<br>
+I execute `gem install -n /usr/local/bin cocoapods`, it worked
